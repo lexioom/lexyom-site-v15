@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -53,7 +53,8 @@
           "name": "Embed",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
@@ -72,7 +73,8 @@
           "name": "YouTube",
           "componentImportPath": "@plasmicpkgs/react-youtube"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
