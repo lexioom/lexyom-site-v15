@@ -1,0 +1,958 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "2.2.1",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "Tg8iODh_BQ",
+          "name": "EmbedCss",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
+      "projectApiToken": "3n3SKEMyDjMJptsNvaK6yxRaa8PAgqwkfIhRbKT4ZG9SobeM3Kb5rE2pSYmbR338Z5p6vBTScOAnptZwGSbQ",
+      "projectName": "react-youtube",
+      "version": "3.0.2",
+      "cssFilePath": "plasmic/react_youtube/plasmic_react_youtube.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CHO21V9uYw",
+          "name": "YouTube",
+          "componentImportPath": "@plasmicpkgs/react-youtube"
+        }
+      ]
+    },
+    {
+      "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+      "projectApiToken": "IBkg615Ohwuw257VdFHwNkCPGMODtQfjJzW78IYl0JenByZCFZo2XRQYPIjZ0SLpgB936oAshpoz4VSbocGQ",
+      "projectName": "Lexyom-site-v1",
+      "version": "latest",
+      "cssFilePath": "plasmic/lexyom_site_v_1/plasmic_lexyom_site_v_1.module.css",
+      "components": [
+        {
+          "id": "AOX_A0VGq9rP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "jWSf9Dy_4GKo",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "uRieLqDvAv",
+          "name": "NavLink",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicNavLink.jsx",
+          "importSpec": {
+            "modulePath": "NavLink.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicNavLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nQ2jjWsYJM",
+          "name": "ClientVerbatim",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicClientVerbatim.jsx",
+          "importSpec": {
+            "modulePath": "ClientVerbatim.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicClientVerbatim.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "I0HSPuVrMed",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "EtZ44ti1WD-5",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton2.jsx",
+          "importSpec": {
+            "modulePath": "Button2.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "PliWwcJ97J1M",
+          "name": "Button3",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton3.jsx",
+          "importSpec": {
+            "modulePath": "Button3.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "tnKGBjd589k-",
+          "name": "Button4",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton4.jsx",
+          "importSpec": {
+            "modulePath": "Button4.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton4.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "P-8ESjnvHz5t",
+          "name": "Button5",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton5.jsx",
+          "importSpec": {
+            "modulePath": "Button5.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton5.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "tqZJLiyiwkWo",
+          "name": "Button6",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton6.jsx",
+          "importSpec": {
+            "modulePath": "Button6.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton6.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "zuYST6cNAC-v",
+          "name": "Button7",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton7.jsx",
+          "importSpec": {
+            "modulePath": "Button7.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton7.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "7xk7c3gV_779",
+          "name": "Button8",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton8.jsx",
+          "importSpec": {
+            "modulePath": "Button8.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton8.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "Uhewj32kEM7g",
+          "name": "Button9",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton9.jsx",
+          "importSpec": {
+            "modulePath": "Button9.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton9.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "x0X9si_r-UTb",
+          "name": "Button10",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicButton10.jsx",
+          "importSpec": {
+            "modulePath": "Button10.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicButton10.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "_3421pPjve",
+          "name": "OurStory",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicOurStory.jsx",
+          "importSpec": {
+            "modulePath": "../pages/our-story.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicOurStory.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "c0t49AwPo7",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicNavBar.jsx",
+          "importSpec": {
+            "modulePath": "NavBar.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5S4FajIL-oi",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6aSq1B1u45",
+          "name": "GetStartedButtons",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicGetStartedButtons.jsx",
+          "importSpec": {
+            "modulePath": "GetStartedButtons.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicGetStartedButtons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ppvtbwqa_1",
+          "name": "CommunityItem",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicCommunityItem.jsx",
+          "importSpec": {
+            "modulePath": "CommunityItem.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicCommunityItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CEkNcJN1io",
+          "name": "Pricing",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicPricing.jsx",
+          "importSpec": {
+            "modulePath": "../pages/pricing.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicPricing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fjl1qf3oM_K",
+          "name": "LimitedTimeOffer",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicLimitedTimeOffer.jsx",
+          "importSpec": {
+            "modulePath": "../pages/limited-time-offer.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicLimitedTimeOffer.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6OgPDSshso",
+          "name": "Cs",
+          "type": "managed",
+          "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+          "renderModuleFilePath": "plasmic/lexyom_site_v_1/PlasmicCs.jsx",
+          "importSpec": {
+            "modulePath": "Cs.jsx"
+          },
+          "cssFilePath": "plasmic/lexyom_site_v_1/PlasmicCs.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "vga0cOM2JJz8u",
+          "name": "CheckSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__CheckSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "m_gsE3mSLFD_f",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "cZ4A75xhOp2J",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "aLWinbrsfkwl",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "bSICkwAA2jp_",
+          "name": "_227601RightArrowIconsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon___227601RightArrowIconsvg.jsx"
+        },
+        {
+          "id": "ai-qmtX9bxdJ",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "Iof6785ya4wv",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "Ie7czDGhhct1",
+          "name": "_14655891761535698998SvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon___14655891761535698998Svg.jsx"
+        },
+        {
+          "id": "BwO8uAxqiXao",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "Zfl-XOTD-og9",
+          "name": "_12454851961582823590SvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon___12454851961582823590Svg.jsx"
+        },
+        {
+          "id": "Q6X_-WdXuwmb",
+          "name": "_13616027201551939471SvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon___13616027201551939471Svg.jsx"
+        },
+        {
+          "id": "RPw95Ru86uio",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon5.jsx"
+        },
+        {
+          "id": "VQocQ56OQMXY",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "rLQx_Fb_DoC7",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon28.jsx"
+        },
+        {
+          "id": "7Tp_ewkltob",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "UmUCF86B0S_",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "mnCLZA2CRHQ",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__SquareMinussvg.jsx"
+        },
+        {
+          "id": "BWHY9zXLO5",
+          "name": "PrivacySvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__PrivacySvgrepoComsvg.jsx"
+        },
+        {
+          "id": "g12zhrCk4t",
+          "name": "EmployeeSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__EmployeeSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "iDNHArTXHm",
+          "name": "EmployeesSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__EmployeesSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "N6iq0N4pgM",
+          "name": "MoreSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__MoreSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "ulNJ0u9nwZGn",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__Icon14.jsx"
+        },
+        {
+          "id": "85YUSUBoCD",
+          "name": "BrowserWebsiteSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__BrowserWebsiteSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "p4IUrDRD65",
+          "name": "WorldSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__WorldSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "lNMDN9rTgI",
+          "name": "SignatureDocSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__SignatureDocSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "FZlsgF0C0-",
+          "name": "DealSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__DealSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "hDN-H0ESm-",
+          "name": "CustomerServiceSvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__CustomerServiceSvgrepoCom1Svg.jsx"
+        },
+        {
+          "id": "F74gsTp3W4",
+          "name": "InstagramSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__InstagramSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "k5aL1_VQsZ",
+          "name": "FacebookSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__FacebookSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "TP5V41gxaG",
+          "name": "StartupSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__StartupSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "JdBWFQtGDc",
+          "name": "ContractSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/lexyom_site_v_1/icons/PlasmicIcon__ContractSvgrepoComsvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "eXK_23Omrxssx",
+          "name": "image.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/imagepng.jpeg"
+        },
+        {
+          "id": "ZZRx9GxIvyn1",
+          "name": "image",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image.png"
+        },
+        {
+          "id": "aRjba39Tu5x0",
+          "name": "image 2",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image2.png"
+        },
+        {
+          "id": "BUcsRufp0NYn",
+          "name": "image 3",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image3.svg"
+        },
+        {
+          "id": "chiE1LQmuCm2",
+          "name": "image 4",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image4.svg"
+        },
+        {
+          "id": "lfbwxLAKNoRq",
+          "name": "image 5",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image5.svg"
+        },
+        {
+          "id": "TwlgAsXW_3Uc",
+          "name": "image 6",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image6.svg"
+        },
+        {
+          "id": "vh1i0ym0AOWb",
+          "name": "image 7",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image7.svg"
+        },
+        {
+          "id": "csgR6coMTcSA",
+          "name": "image 8",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image8.svg"
+        },
+        {
+          "id": "6pATjfZ8Qbn0",
+          "name": "image 9",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image9.svg"
+        },
+        {
+          "id": "6QXQ0CFvCcer",
+          "name": "image 10",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image10.png"
+        },
+        {
+          "id": "1hkfJiDTtxCb",
+          "name": "image 11",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image11.png"
+        },
+        {
+          "id": "2aR2XITs3bwQ",
+          "name": "image 12",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image12.png"
+        },
+        {
+          "id": "yH0GXn_hMnFO",
+          "name": "image 13",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image13.png"
+        },
+        {
+          "id": "B_D5WggWxTnZ",
+          "name": "image 14",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image14.png"
+        },
+        {
+          "id": "9ua932aydtbF",
+          "name": "image 15",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image15.png"
+        },
+        {
+          "id": "P_OLops3p1KZ",
+          "name": "image 16",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image16.png"
+        },
+        {
+          "id": "QKep0oarHpTo",
+          "name": "image 17",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image17.svg"
+        },
+        {
+          "id": "c5WE1tiS6ZSX",
+          "name": "image 18",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image18.svg"
+        },
+        {
+          "id": "r8659IGc4844",
+          "name": "image 19",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image19.svg"
+        },
+        {
+          "id": "F6C5WfW62upM",
+          "name": "image 20",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image20.svg"
+        },
+        {
+          "id": "c1a3LPNC1",
+          "name": "logo-v3.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/logoV3Png.png"
+        },
+        {
+          "id": "Z8YB0_5SB",
+          "name": "ezgif.com-gif-maker (3).gif",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/ezgifcomGifMaker3Gif.jpeg"
+        },
+        {
+          "id": "6fn7S8lmY",
+          "name": "Screenshot_42.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/screenshot42Png.png"
+        },
+        {
+          "id": "4BYOiqy8D",
+          "name": "Oprah-Winfrey-Signature-1.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/oprahWinfreySignature1Png.png"
+        },
+        {
+          "id": "BaqwgRlJGuCP",
+          "name": "image 21",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image21.png"
+        },
+        {
+          "id": "6IcBSb6tIhgl",
+          "name": "image 22",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image22.jpeg"
+        },
+        {
+          "id": "r38ECutc-X7E",
+          "name": "image 23",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image23.png"
+        },
+        {
+          "id": "glDypZrYrwST",
+          "name": "image 24",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image24.jpeg"
+        },
+        {
+          "id": "xRbnz9EGLPMm",
+          "name": "image 25",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image25.jpeg"
+        },
+        {
+          "id": "ofQ2NDsziFBs",
+          "name": "image 26",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image26.png"
+        },
+        {
+          "id": "fePDtA-0NEW2",
+          "name": "image 27",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image27.jpeg"
+        },
+        {
+          "id": "TjM-fY7ZTaY_",
+          "name": "image 28",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image28.png"
+        },
+        {
+          "id": "QKwBcjX0PHv7",
+          "name": "image 29",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image29.jpeg"
+        },
+        {
+          "id": "rg_kYVg0gha",
+          "name": "image 30",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image30.svg"
+        },
+        {
+          "id": "e0zBN06rK",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/logopng.png"
+        },
+        {
+          "id": "XMsfSrbOr",
+          "name": "500-startups.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/_500Startupspng.png"
+        },
+        {
+          "id": "KXtGJ2pvl",
+          "name": "500.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/_500Png.png"
+        },
+        {
+          "id": "GpQVgE0c8",
+          "name": "dubaismartcitylogo.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/dubaismartcitylogopng.png"
+        },
+        {
+          "id": "7_32NYqVo",
+          "name": "faik.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/faikpng.png"
+        },
+        {
+          "id": "NWHyEJmdw",
+          "name": "hub71.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/hub71Png.png"
+        },
+        {
+          "id": "Lns0kiFYp",
+          "name": "mashreq.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/mashreqpng.png"
+        },
+        {
+          "id": "zTTxGmHMU",
+          "name": "sandbox.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/sandboxpng.png"
+        },
+        {
+          "id": "HTuy9MuVV",
+          "name": "sbc.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/sbcpng.png"
+        },
+        {
+          "id": "wEbTvZN5x",
+          "name": "wise.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/wisepng.png"
+        },
+        {
+          "id": "KU3jATcGx",
+          "name": "MacBook Pro 16.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/macBookPro16Png.png"
+        },
+        {
+          "id": "7zpRgJYBX",
+          "name": "shutterstock_648907024 (1).jpg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/shutterstock6489070241Jpg.jpeg"
+        },
+        {
+          "id": "KQZNJDlKZ9yd",
+          "name": "image 31",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image31.svg"
+        },
+        {
+          "id": "c-vPCPl89PRr",
+          "name": "image 32",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image32.jpeg"
+        },
+        {
+          "id": "w2fkA9402aBH",
+          "name": "image 33",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image33.jpeg"
+        },
+        {
+          "id": "hOv7nSj25lBc",
+          "name": "image 34",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image34.jpeg"
+        },
+        {
+          "id": "rBdEGqVBrHp7",
+          "name": "image 35",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image35.jpeg"
+        },
+        {
+          "id": "v6b11y5gxCLx",
+          "name": "image 36",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image36.jpeg"
+        },
+        {
+          "id": "2a1CvP2PlTS8",
+          "name": "image 37",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image37.jpeg"
+        },
+        {
+          "id": "aTaioye_VHtO",
+          "name": "image 38",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image38.jpeg"
+        },
+        {
+          "id": "aMEa0B7eGShJ",
+          "name": "image 39",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/image39.jpeg"
+        },
+        {
+          "id": "_h77ZhDcJ",
+          "name": "Screenshot_45.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/screenshot45Png.png"
+        },
+        {
+          "id": "44f0qyNbB",
+          "name": "priscilla-elora-sharuk-960x1330-crop-1.jpeg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/priscillaEloraSharuk960X1330Crop1Jpeg.jpeg"
+        },
+        {
+          "id": "DTmSF-iUS",
+          "name": "preview_myki.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/previewMykipng.png"
+        },
+        {
+          "id": "Ay_5m5btf",
+          "name": "myki-logo.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/mykiLogopng.png"
+        },
+        {
+          "id": "sc9Wqaa0b",
+          "name": "IMG20180914125315.width-1360.jpg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/img20180914125315Width1360Jpg.jpeg"
+        },
+        {
+          "id": "Ue_ymMBi7",
+          "name": "pPNu6O90_400x400.jpeg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/pPNu6O90400X400Jpeg.jpeg"
+        },
+        {
+          "id": "l_P7EvSA_0",
+          "name": "logo-dark.svg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/logoDarksvg.svg"
+        },
+        {
+          "id": "hJsEe_S8w",
+          "name": "Screenshot_45.png 2",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/screenshot45Png2.png"
+        },
+        {
+          "id": "TAwyQtO1l",
+          "name": "MacBook Pro 16_ - 3.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/macBookPro163Png.png"
+        },
+        {
+          "id": "ecCYjjgD6",
+          "name": "MacBook Pro 16_ - 2.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/macBookPro162Png.png"
+        },
+        {
+          "id": "7Avz6Nol9",
+          "name": "MacBook Pro 16_ - 4.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/macBookPro164Png.png"
+        },
+        {
+          "id": "EAKXqVcHh",
+          "name": "MacBook Pro 16_ - 4.png 2",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/macBookPro164Png2.png"
+        },
+        {
+          "id": "KE7ZlMogt",
+          "name": "v1.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/v1Png.png"
+        },
+        {
+          "id": "T2-ry8KON",
+          "name": "head.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/headpng.png"
+        },
+        {
+          "id": "5DMOYgPJ8",
+          "name": "team.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/teampng.jpeg"
+        },
+        {
+          "id": "pKTGhL2N6",
+          "name": "team.png 2",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/teampng2.jpeg"
+        },
+        {
+          "id": "YO0LjJGYQ",
+          "name": "Frame 1.jpg",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/frame1Jpg.jpeg"
+        },
+        {
+          "id": "KHVZAhw1t",
+          "name": "Lexyom-logo.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/lexyomLogopng.png"
+        },
+        {
+          "id": "hY8XlPbC6",
+          "name": "undraw_Team_spirit_re_yl1v.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/undrawTeamSpiritReYl1Vpng.png"
+        },
+        {
+          "id": "PGWkgS0Rj",
+          "name": "Untitled design.png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/untitledDesignpng.jpeg"
+        },
+        {
+          "id": "oFTstxQKh",
+          "name": "Untitled design (2).png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/untitledDesign2Png.png"
+        },
+        {
+          "id": "xcfERI1wP",
+          "name": "Untitled design (1).png",
+          "filePath": "../public/plasmic/lexyom_site_v_1/images/untitledDesign1Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "q2e6W8ulGYz",
+        "name": "Screen",
+        "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+        "contextFilePath": "plasmic/plasmic_basic_components/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "GlmAO6RxnuGek",
+        "name": "Screen",
+        "projectId": "3Qa6q3s1gm91eHXRuPwyBY",
+        "contextFilePath": "plasmic/lexyom_site_v_1/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
+}

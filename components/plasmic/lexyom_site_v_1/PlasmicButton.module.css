@@ -1,0 +1,10 @@
+.root {
+  position: relative;
+  display: flex;
+}
+.root:focus-within {
+  outline: none;
+}
+.root___focusVisibleWithin {
+  outline: none;
+}

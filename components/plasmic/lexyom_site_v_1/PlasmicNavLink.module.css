@@ -1,0 +1,47 @@
+.root {
+  width: auto;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0px 15px 0px 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding-right: 8px;
+  }
+}
+.slotTargetChildren {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6em;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+}
+.slotTargetChildren > .__wab_text,
+.slotTargetChildren > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetChildren {
+    font-size: 10px;
+  }
+}
