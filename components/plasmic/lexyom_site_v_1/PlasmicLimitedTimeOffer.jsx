@@ -19,9 +19,9 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: jWSf9Dy_4GKo/component
 import Cs from "../../Cs"; // plasmic-import: 6OgPDSshso/component
 import YouTube from "@plasmicpkgs/react-youtube"; // plasmic-import: CHO21V9uYw/codeComponent
-import Button from "../../Button"; // plasmic-import: jWSf9Dy_4GKo/component
 import GetStartedButtons from "../../GetStartedButtons"; // plasmic-import: 6aSq1B1u45/component
 import Footer from "../../Footer"; // plasmic-import: 5S4FajIL-oi/component
 import { useScreenVariants as useScreenVariantsglmAo6RxnuGek } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: GlmAO6RxnuGek/globalVariant
@@ -272,6 +272,48 @@ function PlasmicLimitedTimeOffer__RenderFunc(props) {
             </p.PlasmicLink>
           </p.Stack>
 
+          <div className={classNames(projectcss.all, sty.freeBox___2XvDy)}>
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns__ctTdy)}
+            >
+              <div className={classNames(projectcss.all, sty.column__upT8E)}>
+                <div className={classNames(projectcss.all, sty.freeBox__iUf7B)}>
+                  <h2
+                    data-plasmic-name={"testimonialText6"}
+                    data-plasmic-override={overrides.testimonialText6}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.testimonialText6
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{"There's a "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FF4B14" }}
+                      >
+                        {"better"}
+                      </span>
+                      <React.Fragment>{" way to do things!"}</React.Fragment>
+                    </React.Fragment>
+                  </h2>
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__b89Mv)}
+                    color={"red"}
+                    link={"https://app.lexyom.com/login"}
+                    shape={"rounded"}
+                    showEndIcon={true}
+                  />
+                </div>
+              </div>
+            </p.Stack>
+          </div>
+
           <div
             data-plasmic-name={"features"}
             data-plasmic-override={overrides.features}
@@ -348,118 +390,6 @@ function PlasmicLimitedTimeOffer__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
 
-            <div className={classNames(projectcss.all, sty.freeBox___2XvDy)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns__ctTdy)}
-              >
-                <div className={classNames(projectcss.all, sty.column__upT8E)}>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__iUf7B)}
-                  >
-                    <h2
-                      data-plasmic-name={"testimonialText6"}
-                      data-plasmic-override={overrides.testimonialText6}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.testimonialText6
-                      )}
-                    >
-                      <React.Fragment>
-                        <React.Fragment>{"There's a "}</React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#FF4B14" }}
-                        >
-                          {"better"}
-                        </span>
-                        <React.Fragment>{" way to do things!"}</React.Fragment>
-                      </React.Fragment>
-                    </h2>
-
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__b89Mv
-                      )}
-                      color={"red"}
-                      link={"https://app.lexyom.com/login"}
-                      shape={"rounded"}
-                      showEndIcon={true}
-                    />
-                  </div>
-                </div>
-              </p.Stack>
-            </div>
-
-            <p.Stack
-              as={"button"}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                projectcss.button,
-                sty.button__a1Sog,
-                ""
-              )}
-            >
-              {true ? (
-                <div
-                  data-plasmic-name={"startIconContainer"}
-                  data-plasmic-override={overrides.startIconContainer}
-                  className={classNames(projectcss.all, sty.startIconContainer)}
-                >
-                  {p.renderPlasmicSlot({
-                    defaultContents: (
-                      <ChecksvgIcon
-                        className={classNames(projectcss.all, sty.svg__tgiy5)}
-                        role={"img"}
-                      />
-                    ),
-
-                    value: args.startIcon,
-                    className: classNames(sty.slotTargetStartIcon)
-                  })}
-                </div>
-              ) : null}
-
-              <div
-                data-plasmic-name={"contentContainer"}
-                data-plasmic-override={overrides.contentContainer}
-                className={classNames(projectcss.all, sty.contentContainer)}
-              >
-                {p.renderPlasmicSlot({
-                  defaultContents: "Tell me more",
-                  value: args.children,
-                  className: classNames(sty.slotTargetChildren)
-                })}
-              </div>
-
-              {true ? (
-                <div
-                  data-plasmic-name={"endIconContainer"}
-                  data-plasmic-override={overrides.endIconContainer}
-                  className={classNames(projectcss.all, sty.endIconContainer)}
-                >
-                  {p.renderPlasmicSlot({
-                    defaultContents: (
-                      <Icon3Icon
-                        className={classNames(projectcss.all, sty.svg__uq8Jn)}
-                        role={"img"}
-                      />
-                    ),
-
-                    value: args.endIcon,
-                    className: classNames(sty.slotTargetEndIcon)
-                  })}
-                </div>
-              ) : null}
-            </p.Stack>
-
             <section
               data-plasmic-name={"computerScreenSection"}
               data-plasmic-override={overrides.computerScreenSection}
@@ -470,6 +400,45 @@ function PlasmicLimitedTimeOffer__RenderFunc(props) {
                 data-plasmic-override={overrides.twoSideBox}
                 className={classNames(projectcss.all, sty.twoSideBox)}
               >
+                <div className={classNames(projectcss.all, sty.freeBox__lAA)}>
+                  <h2
+                    data-plasmic-name={"testimonialText7"}
+                    data-plasmic-override={overrides.testimonialText7}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h2,
+                      projectcss.__wab_text,
+                      sty.testimonialText7
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>{""}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#121212" }}
+                      >
+                        {"Unlimited Legal"}
+                      </span>
+                      <React.Fragment>{" for "}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FF4B14" }}
+                      >
+                        {"as little"}
+                      </span>
+                      <React.Fragment>{" as 5,500 AED/month"}</React.Fragment>
+                    </React.Fragment>
+                  </h2>
+
+                  <Button
+                    className={classNames("__wab_instance", sty.button__xmv6R)}
+                    color={"red"}
+                    link={"https://app.lexyom.com/login"}
+                    shape={"rounded"}
+                    showEndIcon={true}
+                  />
+                </div>
+
                 {(
                   hasVariant(globalVariants, "screen", "mobileOnly")
                     ? true
@@ -636,6 +605,88 @@ function PlasmicLimitedTimeOffer__RenderFunc(props) {
                               </div>
                             </p.Stack>
                           </div>
+
+                          <p.Stack
+                            as={"button"}
+                            hasGap={true}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.button,
+                              sty.button__a1Sog,
+                              ""
+                            )}
+                          >
+                            {true ? (
+                              <div
+                                data-plasmic-name={"startIconContainer"}
+                                data-plasmic-override={
+                                  overrides.startIconContainer
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.startIconContainer
+                                )}
+                              >
+                                {p.renderPlasmicSlot({
+                                  defaultContents: (
+                                    <ChecksvgIcon
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.svg__tgiy5
+                                      )}
+                                      role={"img"}
+                                    />
+                                  ),
+
+                                  value: args.startIcon,
+                                  className: classNames(sty.slotTargetStartIcon)
+                                })}
+                              </div>
+                            ) : null}
+
+                            <div
+                              data-plasmic-name={"contentContainer"}
+                              data-plasmic-override={overrides.contentContainer}
+                              className={classNames(
+                                projectcss.all,
+                                sty.contentContainer
+                              )}
+                            >
+                              {p.renderPlasmicSlot({
+                                defaultContents: "Tell me more",
+                                value: args.children,
+                                className: classNames(sty.slotTargetChildren)
+                              })}
+                            </div>
+
+                            {true ? (
+                              <div
+                                data-plasmic-name={"endIconContainer"}
+                                data-plasmic-override={
+                                  overrides.endIconContainer
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.endIconContainer
+                                )}
+                              >
+                                {p.renderPlasmicSlot({
+                                  defaultContents: (
+                                    <Icon3Icon
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.svg__uq8Jn
+                                      )}
+                                      role={"img"}
+                                    />
+                                  ),
+
+                                  value: args.endIcon,
+                                  className: classNames(sty.slotTargetEndIcon)
+                                })}
+                              </div>
+                            ) : null}
+                          </p.Stack>
                         </div>
                       </div>
                     ) : null}
@@ -1141,18 +1192,19 @@ const PlasmicDescendants = {
     "startIconContainer2",
     "contentContainer2",
     "endIconContainer2",
+    "testimonialText6",
     "features",
     "logos",
     "logoContainer",
     "testimonialText",
     "cs",
     "youTube",
-    "testimonialText6",
+    "computerScreenSection",
+    "twoSideBox",
+    "testimonialText7",
     "startIconContainer",
     "contentContainer",
     "endIconContainer",
-    "computerScreenSection",
-    "twoSideBox",
     "h3",
     "signatureSection",
     "generateFastVideo",
@@ -1187,6 +1239,7 @@ const PlasmicDescendants = {
   startIconContainer2: ["startIconContainer2"],
   contentContainer2: ["contentContainer2"],
   endIconContainer2: ["endIconContainer2"],
+  testimonialText6: ["testimonialText6"],
   features: [
     "features",
     "logos",
@@ -1194,12 +1247,12 @@ const PlasmicDescendants = {
     "testimonialText",
     "cs",
     "youTube",
-    "testimonialText6",
+    "computerScreenSection",
+    "twoSideBox",
+    "testimonialText7",
     "startIconContainer",
     "contentContainer",
     "endIconContainer",
-    "computerScreenSection",
-    "twoSideBox",
     "h3",
     "signatureSection",
     "generateFastVideo",
@@ -1211,12 +1264,27 @@ const PlasmicDescendants = {
   testimonialText: ["testimonialText"],
   cs: ["cs"],
   youTube: ["youTube"],
-  testimonialText6: ["testimonialText6"],
+  computerScreenSection: [
+    "computerScreenSection",
+    "twoSideBox",
+    "testimonialText7",
+    "startIconContainer",
+    "contentContainer",
+    "endIconContainer"
+  ],
+
+  twoSideBox: [
+    "twoSideBox",
+    "testimonialText7",
+    "startIconContainer",
+    "contentContainer",
+    "endIconContainer"
+  ],
+
+  testimonialText7: ["testimonialText7"],
   startIconContainer: ["startIconContainer"],
   contentContainer: ["contentContainer"],
   endIconContainer: ["endIconContainer"],
-  computerScreenSection: ["computerScreenSection", "twoSideBox"],
-  twoSideBox: ["twoSideBox"],
   h3: ["h3"],
   signatureSection: ["signatureSection"],
   generateFastVideo: ["generateFastVideo", "testimonialText3"],
@@ -1273,18 +1341,19 @@ export const PlasmicLimitedTimeOffer = Object.assign(
     startIconContainer2: makeNodeComponent("startIconContainer2"),
     contentContainer2: makeNodeComponent("contentContainer2"),
     endIconContainer2: makeNodeComponent("endIconContainer2"),
+    testimonialText6: makeNodeComponent("testimonialText6"),
     features: makeNodeComponent("features"),
     logos: makeNodeComponent("logos"),
     logoContainer: makeNodeComponent("logoContainer"),
     testimonialText: makeNodeComponent("testimonialText"),
     cs: makeNodeComponent("cs"),
     youTube: makeNodeComponent("youTube"),
-    testimonialText6: makeNodeComponent("testimonialText6"),
+    computerScreenSection: makeNodeComponent("computerScreenSection"),
+    twoSideBox: makeNodeComponent("twoSideBox"),
+    testimonialText7: makeNodeComponent("testimonialText7"),
     startIconContainer: makeNodeComponent("startIconContainer"),
     contentContainer: makeNodeComponent("contentContainer"),
     endIconContainer: makeNodeComponent("endIconContainer"),
-    computerScreenSection: makeNodeComponent("computerScreenSection"),
-    twoSideBox: makeNodeComponent("twoSideBox"),
     h3: makeNodeComponent("h3"),
     signatureSection: makeNodeComponent("signatureSection"),
     generateFastVideo: makeNodeComponent("generateFastVideo"),
