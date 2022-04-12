@@ -426,7 +426,7 @@ function PlasmicLimitedTimeOffer__RenderFunc(props) {
                       >
                         {"as little"}
                       </span>
-                      <React.Fragment>{" as 5,500 AED/month"}</React.Fragment>
+                      <React.Fragment>{" as 1,500US$/month"}</React.Fragment>
                     </React.Fragment>
                   </h2>
 
